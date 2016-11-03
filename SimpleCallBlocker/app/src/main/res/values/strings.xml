@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Call Blocker</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_default_profile">Default profile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_block">Block number</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_title_service_running_checkbox">Enable call blocker service</string>
+    <string name="pref_description_service_running_checkbox_on">Stop the call blocker service</string>
+    <string name="pref_description_service_running_checkbox_off">Start the call blocker service</string>
+    <string name="disable_profile">Disable profile</string>
+    <string name="enable_profile">Enable profile</string>
+    <string name="add_profile">Add profile</string>
+    <string name="add_number">Add number</string>
+    <string name="action_save">Save</string>
+    <string name="error_empty_name">Enter a non-empty profile name</string>
+    <string name="block_everyone">Block all by default</string>
+    <string name="contact_image_desc">The contact\'s image</string>
+    <string name="confirm_remove_number">Remove number from profile?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="hint_phone_number">Phone number or pattern</string>
+    <string name="hint_block_name">Name</string>
+    <string name="select_contact">Select contact</string>
+    <string name="error_empty_number">Number should not be empty</string>
+    <string name="confirm_remove_profile">Remove profile named %1$s?</string>
+    <string name="remove_profile">Remove profile</string>
+
+</resources>

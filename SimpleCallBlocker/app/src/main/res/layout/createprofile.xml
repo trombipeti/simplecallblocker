@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/profile_name_edittext"
+        android:layout_width="fill_parent"
+        android:inputType="textCapSentences"
+        android:layout_height="wrap_content" />
+
+    <CheckedTextView
+        android:id="@+id/block_all_checkedtv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/block_everyone"
+        android:gravity="center_vertical"
+        android:padding="@dimen/block_all_toggle_padding"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple" />
+
+    <Button
+        android:id="@+id/profile_save_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_save" />
+
+</LinearLayout>

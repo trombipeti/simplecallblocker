@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckedTextView
+            android:id="@+id/porfile_toggle_checkbox"
+            android:layout_marginRight="@dimen/profile_toggle_margin"
+            android:layout_marginEnd="@dimen/profile_toggle_margin"
+            android:layout_marginLeft="@dimen/profile_toggle_margin"
+            android:layout_marginStart="@dimen/profile_toggle_margin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/profile_toggle_size"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:text="@string/disable_profile" />
+
+        <CheckedTextView
+            android:id="@+id/blockall_toggle_checkbox"
+            android:layout_marginRight="@dimen/profile_toggle_margin"
+            android:layout_marginEnd="@dimen/profile_toggle_margin"
+            android:layout_marginLeft="@dimen/profile_toggle_margin"
+            android:layout_marginStart="@dimen/profile_toggle_margin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/profile_toggle_size"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:text="@string/block_everyone" />
+
+        <Button
+            android:id="@+id/add_profile_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/profile_toggle_margin"
+            android:text="@string/add_number"
+            android:layout_gravity="end" />
+
+        <View style="@style/Divider" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:layout_below="@id/header_layout">
+
+        <ListView
+            android:id="@+id/contacts_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </ListView>
+    </ScrollView>
+
+</RelativeLayout>

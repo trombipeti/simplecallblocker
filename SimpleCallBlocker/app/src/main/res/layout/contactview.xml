@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/contact_number_name_layout"
+        android:layout_weight="0.8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/contact_info_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact_number_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/contact_number_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/contact_name_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/del_contact_btn"
+        android:layout_width="0dp"
+        android:src="@drawable/ic_action_delete"
+        android:layout_margin="@dimen/contact_info_margin"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

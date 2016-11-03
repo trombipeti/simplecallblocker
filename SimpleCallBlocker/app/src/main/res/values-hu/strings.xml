@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Call Blocker</string>
+    <string name="action_block">Szám blokkolása</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="add_profile">Új profil</string>
+    <string name="disable_profile">Profil tiltása</string>
+    <string name="enable_profile">Profil engedélyezése</string>
+    <string name="pref_description_service_running_checkbox">Hívásblokkolás ki/be</string>
+    <string name="pref_description_service_running_checkbox_on">Hívásoblokkolás leállítása</string>
+    <string name="pref_header_notifications">Értesítések</string>
+    <string name="pref_title_call_blocked_notification">Értesítés a blokkolt hívásokról</string>
+    <string name="pref_title_service_running_checkbox">Hívásblokkoló háttérfolyamat engedélyezése</string>
+    <string name="pref_title_vibrate">Rezgés</string>
+    <string name="title_activity_blocker_settings">Beállítások</string>
+    <string name="title_default_profile">Alapértelmezett profil</string>
+    <string name="title_settings">Beállítások</string>
+    <string name="pref_description_service_running_checkbox_off">Hívásoblokkolás engedélyezése</string>
+    <string name="pref_header_general">Általános</string>
+    <string name="error_empty_name">Adjon meg egy nem üres nevet</string>
+    <string name="action_save">Mentés</string>
+</resources>

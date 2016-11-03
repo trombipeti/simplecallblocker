@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="error_empty_number" type="id">Number should not be empty</item>
+</resources>
